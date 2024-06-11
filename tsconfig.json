@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
     "strict": true,
     "target": "ESNext",
     "module": "ESNext",
@@ -12,4 +16,5 @@
     "noEmit": true,
     "isolatedModules": true,
   },
+  "include": ["src", "styled-system"]
 }
